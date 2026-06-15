@@ -1,0 +1,44 @@
+/* =========================================================
+   BOXMEDIA BRAND KIT
+   ---------------------------------------------------------
+   브랜드 토큰(색상·폰트·레이아웃 기준값)은 전부 이 파일에서만
+   수정한다. style.css 와 모든 페이지는 여기 정의된 변수만 참조.
+
+   * 로고 파일: /theme/basic/img/layout/logo-orange.svg (BI 오렌지)
+                /theme/basic/img/layout/logo-white.svg  (화이트)
+     → SVG 내부 fill 색은 파일에 직접 들어있다. 브랜드 오렌지를
+       바꾸면 SVG 파일의 fill 값도 함께 바꿀 것.
+   ========================================================= */
+
+:root {
+    /* ---------- 1. 브랜드 컬러 ---------- */
+    --brand-orange:      #f68a1d;   /* BI 메인 — 로고, CEO, 강조 */
+    --brand-orange-soft: #fdeede;   /* 오렌지 연한 배경 */
+    --brand-teal:        #0dada8;   /* 웹 포인트 — 링크, 활성 메뉴, 버튼 */
+    --brand-teal-dark:   #088f8b;
+    --brand-teal-light:  #e6f7f6;
+    --brand-navy:        #16243d;   /* 짙은 남색 — 조직도 비즈니스 박스 등 */
+    --brand-gray:        #8e9299;   /* 중간 회색 — 조직도 본부 박스 등 */
+
+    /* ---------- 2. 무채색 (텍스트/배경/선) ---------- */
+    --txt-1: #111;
+    --txt-2: #333;
+    --txt-3: #666;
+    --txt-4: #999;
+    --line:  #e5e5e5;
+    --bg:        #fff;
+    --bg-gray:   #f7f8f9;
+
+    /* ---------- 3. 타이포그래피 ---------- */
+    --font: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Malgun Gothic', sans-serif;
+
+    /* ---------- 4. 레이아웃 기준값 ---------- */
+    --header-h: 80px;
+    --container: 1280px;
+
+    /* ---------- 5. 기존 코드 호환 별칭 ----------
+       style.css 등에서 쓰는 옛 이름. 새 코드는 위의 brand-* 를 쓸 것. */
+    --point:       var(--brand-teal);
+    --point-dark:  var(--brand-teal-dark);
+    --point-light: var(--brand-teal-light);
+}

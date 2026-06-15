@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>박스미디어</title>
+<meta name="description" content="방송/공연/AI/콘텐츠 제작">
+<meta name="keywords" content="방송/영화제작, 공연/뮤지컬, AI영화/유튜브, 연예인매니지먼트 등 방송 콘텐츠 제작 업체">
+<meta property="og:title" content="박스미디어">
+<meta property="og:description" content="방송/공연/AI/콘텐츠 제작">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="theme/basic/css/brand.css">
+<link rel="stylesheet" href="theme/basic/css/style.css">
+</head>
+<body class="is-main">
+
+<header id="header" class="header">
+    <div class="header__inner">
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="theme/basic/img/layout/logo-orange.svg" alt="BOXMEDIA" class="logo__img logo__img--color">
+            </a>
+        </h1>
+
+        <nav class="gnb" id="gnb" aria-label="주 메뉴">
+            <ul class="gnb__list">
+                            <li class="gnb__item">
+                    <a href="about/company.html" class="gnb__link">ABOUT</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="about/company.html">회사개요</a></li>
+                                                <li><a href="about/executives.html">임원소개</a></li>
+                                                <li><a href="about/organization.html">조직도</a></li>
+                                                <li><a href="about/history.html">연혁</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item">
+                    <a href="business/broadcast.html" class="gnb__link">BUSINESS</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="business/broadcast.html">방송 프로그램</a></li>
+                                                <li><a href="business/drama.html">드라마</a></li>
+                                                <li><a href="business/newmedia.html">뉴미디어</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item">
+                    <a href="portfolio/index.html" class="gnb__link">PORTFOLIO</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="portfolio/index.html">PORTFOLIO</a></li>
+                                                <li><a href="portfolio/ai.html">AI</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item">
+                    <a href="contact/index.html" class="gnb__link">CONTACT</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="contact/index.html">CONTACT</a></li>
+                                            </ul>
+                                    </li>
+                        </ul>
+        </nav>
+
+        <button type="button" class="btn-menu" id="btnMenu" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- 모바일 슬라이드 메뉴 -->
+<div class="m-menu" id="mobileMenu" aria-hidden="true">
+    <div class="m-menu__panel">
+        <div class="m-menu__head">
+            <span class="m-menu__logo">BOXMEDIA</span>
+            <button type="button" class="m-menu__close" id="btnMenuClose" aria-label="메뉴 닫기">&times;</button>
+        </div>
+        <ul class="m-menu__list">
+                    <li class="m-menu__item">
+                <a href="about/company.html" class="m-menu__link">ABOUT</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="about/company.html">&middot; 회사개요</a></li>
+                                        <li><a href="about/executives.html">&middot; 임원소개</a></li>
+                                        <li><a href="about/organization.html">&middot; 조직도</a></li>
+                                        <li><a href="about/history.html">&middot; 연혁</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item">
+                <a href="business/broadcast.html" class="m-menu__link">BUSINESS</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="business/broadcast.html">&middot; 방송 프로그램</a></li>
+                                        <li><a href="business/drama.html">&middot; 드라마</a></li>
+                                        <li><a href="business/newmedia.html">&middot; 뉴미디어</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item">
+                <a href="portfolio/index.html" class="m-menu__link">PORTFOLIO</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="portfolio/index.html">&middot; PORTFOLIO</a></li>
+                                        <li><a href="portfolio/ai.html">&middot; AI</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item">
+                <a href="contact/index.html" class="m-menu__link">CONTACT</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="contact/index.html">&middot; CONTACT</a></li>
+                                    </ul>
+                            </li>
+                </ul>
+        <div class="m-menu__office">
+            <strong>Office</strong>
+            <p>서울시 마포구 성암로 330, 521호 (상암동, DMC첨단산업센터)</p>
+            <p>T. 02-2124-6000 &nbsp; F. 02-2124-6099</p>
+        </div>
+    </div>
+    <div class="m-menu__dim" id="menuDim"></div>
+</div>
+
+
+<main id="content" class="content">
+
+<!-- HERO -->
+<section class="main-hero">
+    <div class="main-hero__media hero-slider" id="heroSlider">
+                <div class="hero-slide is-active" data-title="BOXMEDIA">
+                        <video autoplay muted playsinline preload="auto" poster="theme/basic/img/main/sec02-bg.jpg">
+                            <source src="theme/basic/img/main/main-video01.mp4" type="video/mp4">
+            </video>
+        </div>
+                <div class="hero-slide" data-title="Broadcasting">
+                        <video muted playsinline preload="none">
+                            <source src="theme/basic/img/main/main-video02.mp4" type="video/mp4">
+            </video>
+        </div>
+                <div class="hero-slide" data-title="Drama">
+                        <video muted playsinline preload="none">
+                            <source src="theme/basic/img/main/main-video03.mp4" type="video/mp4">
+            </video>
+        </div>
+                <div class="hero-slide" data-title="New Media">
+                        <video muted playsinline preload="none">
+                            <source src="theme/basic/img/main/main-video04.mp4" type="video/mp4">
+            </video>
+        </div>
+                <div class="hero-slide" data-title="Music Business">
+                        <video muted playsinline preload="none">
+                            <source src="theme/basic/img/main/main-video05.mp4" type="video/mp4">
+            </video>
+        </div>
+            </div>
+    <div class="main-hero__copy">
+        <em>BOXMEDIA</em>
+        <p>대한민국 최고의<br>종합콘텐츠 제작사입니다.</p>
+    </div>
+    <div class="hero-dots" id="heroTimeline" aria-label="히어로 영상 선택">
+                <button type="button" class="hero-dots__item is-active" data-index="0" aria-label="BOXMEDIA">
+            <i class="hero-dots__bar"></i>
+        </button>
+                <button type="button" class="hero-dots__item" data-index="1" aria-label="Broadcasting">
+            <i class="hero-dots__bar"></i>
+        </button>
+                <button type="button" class="hero-dots__item" data-index="2" aria-label="Drama">
+            <i class="hero-dots__bar"></i>
+        </button>
+                <button type="button" class="hero-dots__item" data-index="3" aria-label="New Media">
+            <i class="hero-dots__bar"></i>
+        </button>
+                <button type="button" class="hero-dots__item" data-index="4" aria-label="Music Business">
+            <i class="hero-dots__bar"></i>
+        </button>
+            </div>
+    <div class="main-hero__scroll">scroll</div>
+</section>
+
+<!-- ABOUT — 메인 카피 (section01) -->
+<section class="main-intro">
+    <div class="inner">
+        <img src="theme/basic/img/layout/logo-orange.svg" alt="BOXMEDIA" class="main-intro__symbol" loading="lazy" decoding="async" data-aos="fade-up" data-aos-delay="200">
+        <h3 data-aos="fade-up" data-aos-delay="500">대한민국 최고의 <br><em>종합콘텐츠</em> 제작사입니다.</h3>
+    </div>
+    <!-- 세로 화면 전용 스크롤 힌트 — 히어로의 SCROLL과 동일한 애니메이션 (CSS가 표시 제어) -->
+    <div class="main-hero__scroll main-intro__scroll" aria-hidden="true">scroll</div>
+</section>
+
+<!-- ABOUT — THE BEST CREATOR GROUP (section02) -->
+<section class="main-creator" style="background-image:url('theme/basic/img/main/sec02-bg.jpg');">
+    <div class="main-creator__inner">
+        <img src="theme/basic/img/layout/logo-white.svg" alt="BOXMEDIA" class="main-creator__logo" loading="lazy" decoding="async" data-aos="fade-up">
+        <h3 data-aos="fade-up" data-aos-delay="150">THE BEST <br>CREATOR GROUP</h3>
+        <p data-aos="fade-up" data-aos-delay="300">예능, 드라마, 음악. <br>최고의 크리에이터들이 뭉쳤다</p>
+        <a href="about/company.html" class="btn-more btn-more--w" data-aos="fade-up" data-aos-delay="450">view more</a>
+    </div>
+</section>
+
+<!-- BUSINESS 4패널 (section03) -->
+<section class="main-biz">
+    <div class="inner">
+        <div class="main-biz__head">
+            <span class="sec-label" data-aos="fade-up">Business</span>
+            <h3 class="sec-title" data-aos="fade-up" data-aos-delay="150">BUSINESS</h3>
+            <p class="sec-desc" data-aos="fade-up" data-aos-delay="300">박스미디어가 만드는 콘텐츠의 세계</p>
+        </div>
+        <div class="biz-grid">
+                        <a href="business/broadcast.html" class="biz-panel" data-aos="fade-up" data-aos-delay="0">
+                <span class="biz-panel__num">01</span>
+                <img src="theme/basic/img/main/sec02-logo.png" alt="" class="biz-panel__icon" loading="lazy" decoding="async">
+                <dl>
+                    <dt>FUN</dt>
+                    <dd>재미와 감동으로 세상을 물들이다</dd>
+                </dl>
+                <span class="biz-panel__label">방송 프로그램 제작</span>
+                <span class="biz-panel__more">view more &rarr;</span>
+            </a>
+                        <a href="business/drama.html" class="biz-panel" data-aos="fade-up" data-aos-delay="100">
+                <span class="biz-panel__num">02</span>
+                <img src="theme/basic/img/main/sec02-logo.png" alt="" class="biz-panel__icon" loading="lazy" decoding="async">
+                <dl>
+                    <dt>STORY</dt>
+                    <dd>스토리가 세상을 바꾼다</dd>
+                </dl>
+                <span class="biz-panel__label">드라마</span>
+                <span class="biz-panel__more">view more &rarr;</span>
+            </a>
+                        <a href="business/newmedia.html" class="biz-panel" data-aos="fade-up" data-aos-delay="200">
+                <span class="biz-panel__num">03</span>
+                <img src="theme/basic/img/main/sec02-logo.png" alt="" class="biz-panel__icon" loading="lazy" decoding="async">
+                <dl>
+                    <dt>UNBOXING</dt>
+                    <dd>세상의 모든 재미를 UN<span class="accent">BOX</span>ING하다</dd>
+                </dl>
+                <span class="biz-panel__label">뉴미디어</span>
+                <span class="biz-panel__more">view more &rarr;</span>
+            </a>
+                        <a href="portfolio/ai.html" class="biz-panel" data-aos="fade-up" data-aos-delay="300">
+                <span class="biz-panel__num">04</span>
+                <img src="theme/basic/img/main/sec02-logo.png" alt="" class="biz-panel__icon" loading="lazy" decoding="async">
+                <dl>
+                    <dt>AI</dt>
+                    <dd>AI영화/유튜브 — 새로운 기술로 콘텐츠를 확장하다</dd>
+                </dl>
+                <span class="biz-panel__label">AI</span>
+                <span class="biz-panel__more">view more &rarr;</span>
+            </a>
+                    </div>
+    </div>
+</section>
+
+<!-- 숫자로 보는 박스미디어 (section04) -->
+<section class="main-count">
+    <div class="main-count__inner">
+        <h3 data-aos="fade-left">숫자로 보는 <br>박스미디어</h3>
+        <dl class="count-list">
+                        <div data-aos="fade-up" data-aos-delay="0">
+                <dt>업력</dt>
+                <dd><span data-count="16">0</span><span class="unit">년</span></dd>
+            </div>
+                        <div data-aos="fade-up" data-aos-delay="100">
+                <dt>제작 프로그램</dt>
+                <dd><span data-count="127">0</span></dd>
+            </div>
+                        <div data-aos="fade-up" data-aos-delay="200">
+                <dt>누적 편수</dt>
+                <dd><span data-count="3010">0</span></dd>
+            </div>
+                        <div data-aos="fade-up" data-aos-delay="300">
+                <dt>연간 제작 편수</dt>
+                <dd><span data-count="260">0</span></dd>
+            </div>
+                    </dl>
+    </div>
+</section>
+
+<!-- PORTFOLIO 미리보기 (section05 WORKS) -->
+<section class="main-works">
+    <div class="inner">
+        <div class="main-works__head">
+            <div>
+                <span class="sec-label" data-aos="fade-up">Works</span>
+                <h3 class="sec-title" data-aos="fade-up" data-aos-delay="150">WORKS</h3>
+                <p class="sec-desc" data-aos="fade-up" data-aos-delay="300">시대의 흐름에 맞는 콘텐츠를 <br>제작합니다.</p>
+            </div>
+            <a href="portfolio/index.html" class="btn-more" data-aos="fade-up">view more</a>
+        </div>
+        <div class="works-grid">
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="0">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-01.jpg" alt="차린건 쥐뿔도 없지만" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">차린건 쥐뿔도 없지만</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-02.jpg" alt="이용진의 까라ㅇㅋ" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">이용진의 까라ㅇㅋ</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-03.jpg" alt="부부스캔들" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">부부스캔들</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-04.jpg" alt="생생정보" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">생생정보</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="0">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-05.jpg" alt="애로부부" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">애로부부</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-06.jpg" alt="히든싱어" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">히든싱어</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-07.jpg" alt="연애의 참견" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">연애의 참견</p>
+                </div>
+            </a>
+                        <a href="portfolio/index.html" class="card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card__thumb">
+                    <img src="theme/basic/img/portfolio/sec05-08.jpg" alt="나는 몸신이다" loading="lazy" decoding="async">
+                </div>
+                <div class="card__body">
+                    <p class="card__title">나는 몸신이다</p>
+                </div>
+            </a>
+                    </div>
+    </div>
+</section>
+
+</main>
+
+<footer id="footer" class="footer">
+    <div class="footer__inner">
+        <div class="footer__left">
+            <p class="footer__logo">
+                <img src="theme/basic/img/layout/foot-logo.png" alt="BOXMEDIA" loading="lazy" decoding="async">
+            </p>
+            <p class="footer__info">
+                (주)박스미디어 &#x3163; 대표 박해선 &#x3163; 서울시 마포구 성암로 330, 521호 (상암동, DMC첨단산업센터) &#x3163;
+                T. 02-2124-6000 &#x3163; F. 02-2124-6099            </p>
+            <a href="contact/index.html" class="footer__contact">CONTACT</a>
+        </div>
+        <div class="footer__right">
+            <p class="footer__copy">Copyright © 2023 BOXMEDIA All rights reserved.</p>
+            <p class="footer__copy2">본 사이트의 이미지 및 콘텐츠 저작권은 (주)박스미디어에 있으며 무단 전재, 복사, 배포 등을 금합니다.</p>
+        </div>
+    </div>
+</footer>
+
+<button type="button" class="scroll-top" id="scrollTop" aria-label="맨 위로">
+    <img src="theme/basic/img/layout/scroll-top.png" alt="TOP">
+</button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="theme/basic/js/common.js" defer></script>
+<script>
+/* defer 스크립트 로드 완료(DOMContentLoaded) 후 AOS 초기화 */
+document.addEventListener('DOMContentLoaded', function () {
+    if (window.AOS) {
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 80,
+            easing: 'ease-out-cubic'
+        });
+    }
+});
+</script>
+</body>
+</html>

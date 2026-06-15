@@ -1,0 +1,360 @@
+{
+    "categories": [
+        "All",
+        "Broadcast",
+        "Drama",
+        "Concert"
+    ],
+    "items": [
+        {
+            "id": "tab01",
+            "category": "Drama",
+            "title": "영화 <한복 입은 남자>",
+            "description": "국내 최초 장편 100% AI 영화, 대한민국 인공지능 영화제 대상 수상작",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-01.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2026.05.21"
+                },
+                {
+                    "label": "Location",
+                    "value": "전국 CGV"
+                },
+                {
+                    "label": "Genre",
+                    "value": "퓨전 역사극"
+                }
+            ]
+        },
+        {
+            "id": "tab02",
+            "category": "TV Program",
+            "title": "부부스캔들3 <금지된 유혹>",
+            "description": "금기와 욕망의 관계, 위기의 부부에 대한 이야기",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-02.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.10"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "베리미디어"
+                }
+            ]
+        },
+        {
+            "id": "tab03",
+            "category": "TV Program",
+            "title": "입 터지는 실험실",
+            "description": "“왜 맛있을 과학?” 입 터진 과학자들이 맛의 비밀을 실험한다! 입맛도, 수다도, 웃음도 터지는 신개념 과학 먹방 토크쇼!",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-03.jpg",
+            "link": "https:\/\/ktena.co.kr\/bbs\/board.php?bo_table=variety&wr_id=132",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.10"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "ENA"
+                },
+                {
+                    "label": "Starring",
+                    "value": "김풍, 궤도, 주우재, 하영, 김상욱, 이광렬, 김범준, 장홍제, 최수영, 김태훈"
+                }
+            ]
+        },
+        {
+            "id": "tab04",
+            "category": "Concert",
+            "title": "황영웅 콘서트 <오빠가 돌아왔다>",
+            "description": "기획 및 연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-04.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.10"
+                },
+                {
+                    "label": "Location",
+                    "value": "연세대학교 노천극장"
+                },
+                {
+                    "label": "Starring",
+                    "value": "황영웅"
+                }
+            ]
+        },
+        {
+            "id": "tab05",
+            "category": "Concert",
+            "title": "MY K FESTA (마이케이페스타)",
+            "description": "시스템 관리 및 섭외",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-05.jpg",
+            "link": "https:\/\/www.mykfesta.com\/kor\/program\/live.php",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.06"
+                },
+                {
+                    "label": "Location",
+                    "value": "KSPO DOME"
+                },
+                {
+                    "label": "Starring",
+                    "value": "엔플라잉, 웨이션브이, 이영지, 에스파, 아일릿, 하츠투하츠, 뉴비트, 아홉, 모던테이블, 연희컴퍼니 유"
+                }
+            ]
+        },
+        {
+            "id": "tab06",
+            "category": "Concert",
+            "title": "TIFFANY YOUNG 2025 FAN-CONCERT TOUR in Asia",
+            "description": "티파니 아시아 팬미팅 투어",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-06.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.03-2025.04"
+                },
+                {
+                    "label": "Location",
+                    "value": "호치민, 타이페이, 방콕"
+                },
+                {
+                    "label": "Starring",
+                    "value": "티파니 영"
+                }
+            ]
+        },
+        {
+            "id": "tab07",
+            "category": "Concert",
+            "title": "밀양강 오딧세이, 칼을 품고 슬퍼하다",
+            "description": "이상훈 작가 作 <칼을 품고 슬퍼하다>, 실경 역사 뮤지컬",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-07.jpg",
+            "link": "https:\/\/www.arirang.or.kr\/media_index.php",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.05.22-2025.05.24"
+                },
+                {
+                    "label": "Location",
+                    "value": "밀양 영남루 및 밀양강변 일원 실경미디어 야외무대"
+                },
+                {
+                    "label": "Genre",
+                    "value": "뮤지컬"
+                },
+                {
+                    "label": "Starring",
+                    "value": "송일국, 선예, 조상웅, 서광현, 김민수 외"
+                }
+            ]
+        },
+        {
+            "id": "tab08",
+            "category": "Concert",
+            "title": "<뮤지컬> 한복 입은 남자",
+            "description": "베스트셀러 작가 이상훈 소설 원작",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-08.jpg",
+            "link": "https:\/\/emkmusical.com\/portfolio_cat\/original\/",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.12"
+                },
+                {
+                    "label": "Location",
+                    "value": "충무아트센터 대극장"
+                }
+            ]
+        },
+        {
+            "id": "tab09",
+            "category": "Drama",
+            "title": "대운을 잡아라",
+            "description": "돈 많은, 돈 없는, 돈 많고 싶은 세 친구와 그 가족들이 펼치는 짠내가득 파란만장 성장기",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-09.jpg",
+            "link": "https:\/\/program.kbs.co.kr\/1tv\/drama\/goodluck\/pc\/index.html",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.4-2025.9"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "KBS1"
+                },
+                {
+                    "label": "Genre",
+                    "value": "가족, 코미디"
+                },
+                {
+                    "label": "Starring",
+                    "value": "손창민, 선우재덕, 박상면, 이아현, 오영실, 안연홍 外"
+                }
+            ]
+        },
+        {
+            "id": "tab10",
+            "category": "TV Program",
+            "title": "KBS 연기대상 2024",
+            "description": "연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-10.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2025.1"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "KBS 2TV"
+                }
+            ]
+        },
+        {
+            "id": "tab11",
+            "category": "Concert",
+            "title": "K-Link Festival",
+            "description": "제작 및 연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-11.png",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.10"
+                },
+                {
+                    "label": "Location",
+                    "value": "인스파이어 아레나"
+                },
+                {
+                    "label": "Starring",
+                    "value": "에스파, 있지, 민호, NCT WISH, 라이즈, 더보이즈, 트리플에스"
+                }
+            ]
+        },
+        {
+            "id": "tab12",
+            "category": "Concert",
+            "title": "K-뮤직 시즌 굿밤 콘서트 IN 부산",
+            "description": "제작 및 연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-12.jpg",
+            "link": "https:\/\/k-musicseason.com\/index",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.10"
+                },
+                {
+                    "label": "Location",
+                    "value": "부산"
+                },
+                {
+                    "label": "Starring",
+                    "value": "트리플에스, 유니스, POW, NCT WISH, 싸이커스, 도영, 하현상, 나상현씨밴드, 박혜원, 캐치더영"
+                }
+            ]
+        },
+        {
+            "id": "tab13",
+            "category": "Concert",
+            "title": "ECO LIVE CONCERT IN KAOHSIUNG",
+            "description": "제작 및 연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-13.jpg",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.8"
+                },
+                {
+                    "label": "Location",
+                    "value": "대만 카오슝"
+                },
+                {
+                    "label": "Starring",
+                    "value": "태연, 문별, NXD, BTOB"
+                }
+            ]
+        },
+        {
+            "id": "tab14",
+            "category": "TV Program",
+            "title": "몸신의 탄생",
+            "description": "건강부터 뷰티까지 솔루션 정보를 제공하는 메이크오버쇼",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-14.jpg",
+            "icon": "\/theme\/basic\/img\/sub\/business-icon.png",
+            "link": "https:\/\/www.ichannela.com\/program\/detail\/program_detail_renew.do?cateCode=0500AZ01",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.9"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "채널A"
+                },
+                {
+                    "label": "Starring",
+                    "value": "정은아, 황보라, 유민상"
+                }
+            ]
+        },
+        {
+            "id": "tab15",
+            "category": "TV Program",
+            "title": "끝내주는 부부",
+            "description": "드라마보다 더 드라마 같은, '끝'이 필요한 부부들의 이야기",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-15.jpg",
+            "icon": "\/theme\/basic\/img\/sub\/business-icon.png",
+            "link": "https:\/\/www.imtcast.com\/cms\/index.jsp?spgmdomain=AndorEnd%20Couple",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.9"
+                },
+                {
+                    "label": "Broadcast",
+                    "value": "DRAMAcube"
+                },
+                {
+                    "label": "Starring",
+                    "value": "이소라, 강원훈, 안현모, 정미녀, 박혜성"
+                }
+            ]
+        },
+        {
+            "id": "tab16",
+            "category": "Concert",
+            "title": "제15회 INK 콘서트",
+            "description": "제작 및 연출",
+            "thumb": "\/theme\/basic\/img\/portfolio\/portfolio-16.png",
+            "link": "",
+            "fields": [
+                {
+                    "label": "Period",
+                    "value": "2024.9"
+                },
+                {
+                    "label": "Location",
+                    "value": "인천"
+                },
+                {
+                    "label": "Starring",
+                    "value": "라이즈, 있지, 트리플에스, 에잇턴, 티아이오티, 유니스, 이브, 파우, 비비업 등"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI | 박스미디어</title>
+<meta name="description" content="방송/공연/AI/콘텐츠 제작">
+<meta name="keywords" content="방송/영화제작, 공연/뮤지컬, AI영화/유튜브, 연예인매니지먼트 등 방송 콘텐츠 제작 업체">
+<meta property="og:title" content="AI | 박스미디어">
+<meta property="og:description" content="방송/공연/AI/콘텐츠 제작">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="../theme/basic/css/brand.css">
+<link rel="stylesheet" href="../theme/basic/css/style.css">
+</head>
+<body class="is-sub">
+
+<header id="header" class="header header--sub">
+    <div class="header__inner">
+        <h1 class="logo">
+            <a href="../index.html">
+                <img src="../theme/basic/img/layout/logo-orange.svg" alt="BOXMEDIA" class="logo__img logo__img--color">
+            </a>
+        </h1>
+
+        <nav class="gnb" id="gnb" aria-label="주 메뉴">
+            <ul class="gnb__list">
+                            <li class="gnb__item">
+                    <a href="../about/company.html" class="gnb__link">ABOUT</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="../about/company.html">회사개요</a></li>
+                                                <li><a href="../about/executives.html">임원소개</a></li>
+                                                <li><a href="../about/organization.html">조직도</a></li>
+                                                <li><a href="../about/history.html">연혁</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item">
+                    <a href="../business/broadcast.html" class="gnb__link">BUSINESS</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="../business/broadcast.html">방송 프로그램</a></li>
+                                                <li><a href="../business/drama.html">드라마</a></li>
+                                                <li><a href="../business/newmedia.html">뉴미디어</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item is-active">
+                    <a href="../portfolio/index.html" class="gnb__link">PORTFOLIO</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
+                                                <li><a href="../portfolio/ai.html">AI</a></li>
+                                            </ul>
+                                    </li>
+                            <li class="gnb__item">
+                    <a href="../contact/index.html" class="gnb__link">CONTACT</a>
+                                        <ul class="gnb__sub">
+                                                <li><a href="../contact/index.html">CONTACT</a></li>
+                                            </ul>
+                                    </li>
+                        </ul>
+        </nav>
+
+        <button type="button" class="btn-menu" id="btnMenu" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- 모바일 슬라이드 메뉴 -->
+<div class="m-menu" id="mobileMenu" aria-hidden="true">
+    <div class="m-menu__panel">
+        <div class="m-menu__head">
+            <span class="m-menu__logo">BOXMEDIA</span>
+            <button type="button" class="m-menu__close" id="btnMenuClose" aria-label="메뉴 닫기">&times;</button>
+        </div>
+        <ul class="m-menu__list">
+                    <li class="m-menu__item">
+                <a href="../about/company.html" class="m-menu__link">ABOUT</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="../about/company.html">&middot; 회사개요</a></li>
+                                        <li><a href="../about/executives.html">&middot; 임원소개</a></li>
+                                        <li><a href="../about/organization.html">&middot; 조직도</a></li>
+                                        <li><a href="../about/history.html">&middot; 연혁</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item">
+                <a href="../business/broadcast.html" class="m-menu__link">BUSINESS</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="../business/broadcast.html">&middot; 방송 프로그램</a></li>
+                                        <li><a href="../business/drama.html">&middot; 드라마</a></li>
+                                        <li><a href="../business/newmedia.html">&middot; 뉴미디어</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item is-active">
+                <a href="../portfolio/index.html" class="m-menu__link">PORTFOLIO</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="../portfolio/index.html">&middot; PORTFOLIO</a></li>
+                                        <li><a href="../portfolio/ai.html">&middot; AI</a></li>
+                                    </ul>
+                            </li>
+                    <li class="m-menu__item">
+                <a href="../contact/index.html" class="m-menu__link">CONTACT</a>
+                                <ul class="m-menu__sub">
+                                        <li><a href="../contact/index.html">&middot; CONTACT</a></li>
+                                    </ul>
+                            </li>
+                </ul>
+        <div class="m-menu__office">
+            <strong>Office</strong>
+            <p>서울시 마포구 성암로 330, 521호 (상암동, DMC첨단산업센터)</p>
+            <p>T. 02-2124-6000 &nbsp; F. 02-2124-6099</p>
+        </div>
+    </div>
+    <div class="m-menu__dim" id="menuDim"></div>
+</div>
+
+<!-- 서브 비주얼 -->
+<div class="sub-visual">
+    <div class="sub-visual__inner">
+        <h2 class="sub-visual__title" data-aos="fade-up">PORTFOLIO</h2>
+                <p class="sub-visual__desc" data-aos="fade-up" data-aos-delay="200">박스미디어가 만들어가는 AI 콘텐츠</p>
+            </div>
+</div>
+<!-- LNB (서브 탭) -->
+<div class="lnb">
+    <div class="lnb__inner">
+        <a href="../index.html" class="lnb__home" aria-label="홈">
+            <img src="../theme/basic/img/layout/hoem-icon.png" alt="HOME">
+        </a>
+        <ul class="lnb__list">
+                        <li class=""><a href="../portfolio/index.html">PORTFOLIO</a></li>
+                        <li class="is-active"><a href="../portfolio/ai.html">AI</a></li>
+                    </ul>
+    </div>
+</div>
+
+<main id="content" class="content">
+
+<section class="sub-section ai-port">
+    <div class="inner">
+        <div class="ai-port__head" data-aos="fade-up">
+            <span class="sec-label">AI CONTENTS</span>
+            <h3 class="sec-title">AI PORTFOLIO</h3>
+            <p class="sec-desc">생성형 AI 기술과 방송 제작 노하우를 결합한 박스미디어의 AI 콘텐츠 프로젝트입니다.</p>
+        </div>
+
+                <ul class="card-grid card-grid--3 ai-grid">
+                        <li class="card ai-card" data-aos="fade-up" data-aos-delay="0">
+                <button type="button" class="ai-card__btn" data-ai-index="0" aria-haspopup="dialog">
+                    <div class="card__thumb">
+                                                <div class="ph-grad">AI</div>
+                                            </div>
+                    <div class="card__body">
+                        <p class="card__title">AI 숏폼 콘텐츠</p>
+                        <p class="card__meta">2026-03-15</p>
+                                                <p class="ai-tags">
+                                                        <span class="ai-tag">#AI영상</span>
+                                                        <span class="ai-tag">#숏폼</span>
+                                                        <span class="ai-tag">#생성형AI</span>
+                                                    </p>
+                                            </div>
+                </button>
+            </li>
+                        <li class="card ai-card" data-aos="fade-up" data-aos-delay="100">
+                <button type="button" class="ai-card__btn" data-ai-index="1" aria-haspopup="dialog">
+                    <div class="card__thumb">
+                                                <div class="ph-grad">AI</div>
+                                            </div>
+                    <div class="card__body">
+                        <p class="card__title">AI 버추얼 캐릭터</p>
+                        <p class="card__meta">2026-04-22</p>
+                                                <p class="ai-tags">
+                                                        <span class="ai-tag">#버추얼휴먼</span>
+                                                        <span class="ai-tag">#캐릭터IP</span>
+                                                        <span class="ai-tag">#보이스AI</span>
+                                                    </p>
+                                            </div>
+                </button>
+            </li>
+                        <li class="card ai-card" data-aos="fade-up" data-aos-delay="200">
+                <button type="button" class="ai-card__btn" data-ai-index="2" aria-haspopup="dialog">
+                    <div class="card__thumb">
+                                                <div class="ph-grad">AI</div>
+                                            </div>
+                    <div class="card__body">
+                        <p class="card__title">AI 영상 워크플로우</p>
+                        <p class="card__meta">2026-05-30</p>
+                                                <p class="ai-tags">
+                                                        <span class="ai-tag">#워크플로우</span>
+                                                        <span class="ai-tag">#자동편집</span>
+                                                        <span class="ai-tag">#업스케일링</span>
+                                                    </p>
+                                            </div>
+                </button>
+            </li>
+                    </ul>
+            </div>
+</section>
+
+<!-- 상세 모달 -->
+<div class="ai-modal" id="aiModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="aiModalTitle">
+    <div class="ai-modal__dim" data-ai-close></div>
+    <div class="ai-modal__box">
+        <button type="button" class="ai-modal__close" data-ai-close aria-label="닫기">&times;</button>
+        <div class="ai-modal__thumb" id="aiModalThumb"></div>
+        <div class="ai-modal__body">
+            <h4 class="ai-modal__title" id="aiModalTitle"></h4>
+            <p class="ai-modal__date" id="aiModalDate"></p>
+            <p class="ai-modal__desc" id="aiModalDesc"></p>
+            <p class="ai-tags" id="aiModalTags"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+window.AI_ITEMS = [{"title":"AI 숏폼 콘텐츠","desc":"생성형 AI 기반 숏폼 영상 제작 파이프라인. 기획부터 스크립트, 영상 생성, 후반 편집까지 AI 워크플로우로 제작 기간을 단축한 버티컬 숏폼 시리즈입니다.","tags":["AI영상","숏폼","생성형AI"],"date":"2026-03-15","image":""},{"title":"AI 버추얼 캐릭터","desc":"AI 기반 버추얼 캐릭터 개발 프로젝트. 캐릭터 디자인, 보이스 합성, 립싱크 애니메이션을 결합해 방송·뉴미디어 콘텐츠에 활용 가능한 버추얼 IP를 구축했습니다.","tags":["버추얼휴먼","캐릭터IP","보이스AI"],"date":"2026-04-22","image":""},{"title":"AI 영상 워크플로우","desc":"방송 제작 현장에 적용한 AI 영상 워크플로우. 자동 컷 편집, 자막 생성, 업스케일링 등 제작 공정 전반에 AI 도구를 도입해 효율을 높인 사내 표준 파이프라인입니다.","tags":["워크플로우","자동편집","업스케일링"],"date":"2026-05-30","image":""}];
+
+(function () {
+    var modal = document.getElementById('aiModal');
+    if (!modal) return;
+
+    var elThumb = document.getElementById('aiModalThumb');
+    var elTitle = document.getElementById('aiModalTitle');
+    var elDate  = document.getElementById('aiModalDate');
+    var elDesc  = document.getElementById('aiModalDesc');
+    var elTags  = document.getElementById('aiModalTags');
+
+    function openModal(idx) {
+        var it = (window.AI_ITEMS || [])[idx];
+        if (!it) return;
+
+        elTitle.textContent = it.title;
+        elDate.textContent  = it.date;
+        elDesc.textContent  = it.desc;
+
+        elTags.innerHTML = '';
+        (it.tags || []).forEach(function (t) {
+            var span = document.createElement('span');
+            span.className = 'ai-tag';
+            span.textContent = '#' + t;
+            elTags.appendChild(span);
+        });
+
+        elThumb.innerHTML = '';
+        if (it.image) {
+            var img = document.createElement('img');
+            img.src = it.image;
+            img.alt = it.title;
+            elThumb.appendChild(img);
+        } else {
+            var ph = document.createElement('div');
+            ph.className = 'ph-grad';
+            ph.textContent = 'AI';
+            elThumb.appendChild(ph);
+        }
+
+        modal.classList.add('is-open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        modal.classList.remove('is-open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('[data-ai-index]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            openModal(parseInt(btn.getAttribute('data-ai-index'), 10));
+        });
+    });
+    modal.querySelectorAll('[data-ai-close]').forEach(function (el) {
+        el.addEventListener('click', closeModal);
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+    });
+})();
+</script>
+
+</main>
+
+<footer id="footer" class="footer">
+    <div class="footer__inner">
+        <div class="footer__left">
+            <p class="footer__logo">
+                <img src="../theme/basic/img/layout/foot-logo.png" alt="BOXMEDIA" loading="lazy" decoding="async">
+            </p>
+            <p class="footer__info">
+                (주)박스미디어 &#x3163; 대표 박해선 &#x3163; 서울시 마포구 성암로 330, 521호 (상암동, DMC첨단산업센터) &#x3163;
+                T. 02-2124-6000 &#x3163; F. 02-2124-6099            </p>
+            <a href="../contact/index.html" class="footer__contact">CONTACT</a>
+        </div>
+        <div class="footer__right">
+            <p class="footer__copy">Copyright © 2023 BOXMEDIA All rights reserved.</p>
+            <p class="footer__copy2">본 사이트의 이미지 및 콘텐츠 저작권은 (주)박스미디어에 있으며 무단 전재, 복사, 배포 등을 금합니다.</p>
+        </div>
+    </div>
+</footer>
+
+<button type="button" class="scroll-top" id="scrollTop" aria-label="맨 위로">
+    <img src="../theme/basic/img/layout/scroll-top.png" alt="TOP">
+</button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="../theme/basic/js/common.js" defer></script>
+<script>
+/* defer 스크립트 로드 완료(DOMContentLoaded) 후 AOS 초기화 */
+document.addEventListener('DOMContentLoaded', function () {
+    if (window.AOS) {
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 80,
+            easing: 'ease-out-cubic'
+        });
+    }
+});
+</script>
+</body>
+</html>
